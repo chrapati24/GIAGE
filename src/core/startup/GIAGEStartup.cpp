@@ -17,6 +17,7 @@ void GIAGEStartup::InitMainWindow()
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 			ClearBackground(RAYWHITE);
+			GuiLoadStyleDefault();
 			GuiWindowBox(TestWindowDimension, "TestWindow");
 			BeginMode3D(camera);
 				DrawCube(TestCubePosition, 1.0f, 1.0f, 1.0f, SKYBLUE);
