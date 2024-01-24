@@ -4,6 +4,7 @@
 namespace GIAGEStartup
 {
 	void InitMainWindow();
+	void InitDefaultInterface();
 }
 
 #endif
