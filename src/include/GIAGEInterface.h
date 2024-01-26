@@ -2,7 +2,7 @@
 
 namespace GIAGEInterface
 {
-	void DrawMainWindow();
+	void DrawMainInterface();
 }
 
 #endif

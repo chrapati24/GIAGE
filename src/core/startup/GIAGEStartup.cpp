@@ -5,6 +5,7 @@
 
 void GIAGEStartup::InitMainWindow()
 {
+	SetConfigFlags(FLAG_WINDOW_RESIZABLE);
 	InitWindow(1366, 768, "[EXPERIMENTAL] Main Window - GIAGE");
 	SetTargetFPS(50);
 	GIAGEStartup::InitDefaultInterface();

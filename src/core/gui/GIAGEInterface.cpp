@@ -1,6 +1,6 @@
 #include "../../include/GIAGEInterface.h"
 
-void GIAGEInterface::DrawMainWindow()
+void GIAGEInterface::DrawMainInterface()
 {
 	// code
 }
