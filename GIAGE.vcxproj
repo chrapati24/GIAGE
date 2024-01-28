@@ -127,12 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\core\gui\GIAGEInterface.cpp" />
     <ClCompile Include="src\core\startup\GIAGEStartup.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\include\GIAGEInterface.h" />
     <ClInclude Include="src\include\GIAGEStartup.h" />
     <ClInclude Include="src\include\GlobalIncludes.h" />
   </ItemGroup>
