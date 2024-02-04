@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "game/game.h"
-// #include "include/GIAGEStartup.h"
 
 int main(void)
 {
