@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\editor\editor.cpp" />
+    <ClCompile Include="src\libs\rlImGui\rlImGui.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\editor\editor.h" />
+    <ClInclude Include="src\libs\rlImGui\rlImGui.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
