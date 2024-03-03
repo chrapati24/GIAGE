@@ -133,6 +133,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\editor\editor.h" />
+    <ClInclude Include="src\engine\camera\camera.h" />
+    <ClInclude Include="src\engine\giage.h" />
     <ClInclude Include="src\libs\rlImGui\rlImGui.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

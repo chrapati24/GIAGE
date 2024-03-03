@@ -8,8 +8,9 @@
 
 int main(void)
 {
-	int widthScreen = 1280;
-	int heightScreen = 720;
+	int widthScreen = 1920;
+	int heightScreen = 960;
+	SetConfigFlags(FLAG_WINDOW_RESIZABLE);
 	InitWindow(widthScreen, heightScreen, "GIAGE");
 
 	rlImGuiSetup(true);
