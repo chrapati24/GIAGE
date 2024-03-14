@@ -127,11 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\debug\debug.cpp" />
     <ClCompile Include="src\editor\editor.cpp" />
+    <ClCompile Include="src\engine\game.cpp" />
+    <ClCompile Include="src\engine\object\object.cpp" />
+    <ClCompile Include="src\engine\scene\scene.cpp" />
     <ClCompile Include="src\libs\rlImGui\rlImGui.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\debug\debug.h" />
     <ClInclude Include="src\editor\editor.h" />
     <ClInclude Include="src\engine\camera\camera.h" />
     <ClInclude Include="src\engine\giage.h" />
