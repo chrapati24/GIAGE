@@ -3,7 +3,9 @@
 
 namespace GIAGE
 {
-	Scene scene;
-	Object object;
+	void Object::setScene(Scene scn)
+	{
+		this->scene = scn;
+	}
 }
 

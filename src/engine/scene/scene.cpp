@@ -1,4 +1,5 @@
 #include "../giage.h"
+#include "../../debug/debug.h"
 #include <cstdio>
 
 namespace GIAGE
@@ -20,8 +21,12 @@ namespace GIAGE
 
 	void Scene::drawScene()
 	{
-		char* scn_model = this->sceneModel;
-		LoadModel(scn_model);
-		printf("\e[0;32m[GIAGE DEBUG] model was loaded from %s", scn_model);
+		char* scn_model_url = this->sceneModel;
+		Model sceneModel = LoadModel(scn_model_url);
+		if (IsModelReady(sceneModel)) {
+			debug_success("Model as been loaded.");
+		} else {
+			debug_error("This model cannot been loaded.");
+		}
 	}
 }

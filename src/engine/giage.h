@@ -69,6 +69,7 @@ namespace GIAGE
 
 		// Setters
 
+		void setScene(Scene scn);
 		void setObjectName(char* name);
 		void setObjectId(int id);
 		void setObjectMesh(char* mesh);
